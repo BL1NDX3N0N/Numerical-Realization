@@ -14,12 +14,12 @@ licensing@blindeyesoftworks.com
 using System;
 using System.Text;
 
-namespace BlindEye.NatrualLanguageGeneration
+namespace BlindEye.NaturalLanguageGeneration
 {
     /// <summary>
     /// Class containing methods for performing natural language generation.
     /// </summary>
-    public static class NatrualLanguageGenerator
+    public static class NaturalLanguageGenerator
     {
         #region Fields
         /* Not to be confused with the duodecimal number system, this is simply
@@ -184,7 +184,7 @@ namespace BlindEye.NatrualLanguageGeneration
         /// only consisting of whitespace characters.
         /// </exception>
         /// <exception cref="FormatException">
-        /// Thrown when <paramref name="source"/> has an inccorect numerical
+        /// Thrown when <paramref name="source"/> has an incorrect numerical
         /// structure.
         /// </exception>
         public static string GenerateText(string source)
