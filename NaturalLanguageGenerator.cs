@@ -94,7 +94,7 @@ namespace BlindEye.NaturalLanguageGeneration
            ---------------------------------------------------------------------
            | GROUPINGS:                                                        |
            ---------------------------------------------------------------------
-           Furthermore we can also detect the grouping name from a digits
+           Furthermore, we can also detect the grouping name from a digits
            placement using the floor function (POS / 3) - ((POS / 3) mod 1) to
            retrieve a proper quotient rounded down to the nearest whole number.
            ---------------------------------------------------------------------
@@ -367,13 +367,13 @@ namespace BlindEye.NaturalLanguageGeneration
 
         private static void RemoveLeadingZeros(ref string source)
         {
-            int endPos = 0;
+            int endPosition = 0;
 
-            while (endPos < source.Length - 1 && source[endPos] == '0')
-                endPos++;
+            while (endPosition < source.Length - 1 && source[endPosition] == '0')
+                endPosition++;
 
-            if (endPos != 0)
-                source = source.Remove(0, endPos);
+            if (endPosition != 0)
+                source = source.Remove(0, endPosition);
         }
 
         private static bool IsMalformed(string source)
