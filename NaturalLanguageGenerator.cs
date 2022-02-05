@@ -80,7 +80,7 @@ namespace BlindEye.NaturalLanguageGeneration
            SUBSTITUTED:
            Octillion = 10^48
            ---------------------------------------------------------------------
-           To convert to E-notation the the expression would be E+MIN OR
+           To convert to E-notation the the expression would be E+MIN, or
            E+(MIN + 1) if MIN is equal to zero.
            ---------------------------------------------------------------------
            EXAMPLE:
